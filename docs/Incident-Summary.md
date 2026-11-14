@@ -1,5 +1,16 @@
 # Technical Incident Summary & IoCs
 
+## True Positive Justification
+
+This alert is classified **True Positive** for the following reasons:
+
+1. **Remote authentication** (`Event ID 4624`) from an internal workstation (`WS-3914` / `10.20.164.124`) using the account `employee44` at 02:59:52.
+2. **Rapid privilege transition**: within three minutes the same host (`BR1-WKS-001`) executed a security-impairing command under `NT AUTHORITY\SYSTEM`.
+3. **Defense impairment confirmed**: `net stop winDefend` generated Windows Defender Operational `Event ID 5001`, disabling real-time protection.
+4. The combination of remote logon → privilege escalation → intentional disabling of endpoint protection is inconsistent with routine administrative activity and matches known lateral-movement / defense-evasion patterns.
+
+No evidence of false-positive causes (e.g., authorised maintenance, legitimate software update, or SIEM misconfiguration) was found during triage.
+
 ## SOC Ticket Closure Notes
 * **Alert Title:** `net.exe service stopped on BR1-WKS-001` (Alert `#5111`)
 * **Attack Category:** Network Intrusion / Lateral Movement
