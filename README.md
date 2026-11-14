@@ -9,7 +9,7 @@ This repository documents an end-to-end Tier 1/Tier 2 Security Operations Center
 * **Final Verdict:** **True Positive**
 
 ### Mission Brief & Alert Triage
-![VirtualSOC Mission Brief](evidence/task-brief.png)
+![VirtualSOC Mission Brief](evidence/Task-brief.png)
 
 ---
 
@@ -31,11 +31,11 @@ Explore the complete incident response documentation inside the `docs/` director
 ### SIEM Alert & Cyber Kill Chain Dashboard
 The alert dashboard mapped the intrusion into the **Exploitation** phase under **Defense Evasion (`TA0005`)**, monitored centrally from SIEM host `SEC-WRK-01` (`10.0.10.15`):
 
-![SIEM Alert Dashboard](evidence/project-overview.png)
+![SIEM Alert Dashboard](evidence/Project-overview.png)
 
 ### Correlated Windows Event Logs
 Correlating authentication logs with defense telemetry revealed a 3-minute window between remote account authentication and `SYSTEM`-level service termination:
 
-![Correlated Event Logs](evidence/incident-logs.png)
+![Correlated Event Logs](evidence/Incident-logs.png)
 
 ---
