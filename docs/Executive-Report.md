@@ -1,0 +1,7 @@
+# Executive Incident Summary
+
+* **Verdict:** **Confirmed Security Incident (True Positive).** An unauthorized party gained access to an employee account and disabled built-in security protections on a company computer.
+* **What Happened:** Just before 3:00 AM, an attacker used stolen login credentials belonging to `employee44` to connect from one company workstation (`WS-3914`) to another (`BR1-WKS-001`). Within three minutes, the attacker gained full administrative control of the second computer and turned off its antivirus software - a common tactic used to prepare for installing malicious programs.
+* **Business Impact:** The impact was strictly limited to **one user account (`employee44`) and two internal workstations (`WS-3914` and `BR1-WKS-001`)**. Because automated SIEM monitoring detected the activity immediately, the attacker was stopped before they could access sensitive servers, steal company data, or disrupt business operations.
+* **Containment Status:** **Confirmed and Contained.** Both affected computers have been immediately disconnected from the company network to prevent any further spread, and the compromised employee's password has been reset to lock the attacker out.
+* **Next Steps:** IT security is restoring antivirus protections on the affected devices, inspecting them to ensure no hidden files were left behind, and strengthening network restrictions to prevent unauthorized connections between employee computers.
