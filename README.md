@@ -17,12 +17,12 @@ This repository documents an end-to-end Tier 1/Tier 2 Security Operations Center
 Explore the complete incident response documentation inside the `docs/` directory:
 
 * [**01. Project Overview**](docs/project-overview.md) - Incident scope, network topology, and investigation objectives.
-* [**02. Attack Investigation & Reconstruction**](docs/attack-investigation-and-reconstruction.md) - Chronological timeline analysis, log correlation, and privilege escalation breakdown.
-* [**03. MITRE ATT&CK Mapping**](docs/mitre-attack-mapping.md) - Adversary tactics, techniques, and sub-techniques observed during the intrusion.
-* [**04. Executive Report**](docs/executive-report.md) - Non-technical leadership summary detailing business impact and containment status.
-* [**05. Incident Summary**](docs/incident-summary.md) - Technical ticket closure notes and complete Indicators of Compromise (IoCs).
-* [**06. Containment & Response**](docs/containment-and-response.md) - Immediate host isolation, credential invalidation, and post-containment triage steps.
-* [**07. Lessons Learned**](docs/lessons-larned.md) - Root cause analysis and long-term defensive hardening recommendations.
+* [**02. Attack Investigation & Reconstruction**](docs/Attack_investigation_and_Reconstruction.md) - Chronological timeline analysis, log correlation, and privilege escalation breakdown.
+* [**03. MITRE ATT&CK Mapping**](docs/MITRE-ATT&CK-Mapping.md) - Adversary tactics, techniques, and sub-techniques observed during the intrusion.
+* [**04. Executive Report**](docs/Executive-Report.md) - Non-technical leadership summary detailing business impact and containment status.
+* [**05. Incident Summary**](docs/Incident-Summary.md) - Technical ticket closure notes and complete Indicators of Compromise (IoCs).
+* [**06. Containment & Response**](docs/Containment-Response.md) - Immediate host isolation, credential invalidation, and post-containment triage steps.
+* [**07. Lessons Learned**](docs/Lessons-larned.md) - Root cause analysis and long-term defensive hardening recommendations.
 
 ---
 
